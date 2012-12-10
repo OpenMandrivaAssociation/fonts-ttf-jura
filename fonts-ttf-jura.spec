@@ -56,3 +56,14 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/jura -o %{buildroot}%{_xfontdir}/TTF/jura/
 %verify(not mtime) %{_datadir}/fonts/TTF/jura/fonts.dir
 %{_xfontdir}/TTF/jura/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-jura:pri=50
+
+
+%changelog
+* Fri Dec 09 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 2.6.1-1mdv2012.0
++ Revision: 739450
+- Update to 2.6.1
+
+* Fri Jul 22 2011 Sergey Zhemoitel <serg@mandriva.org> 2.4-1
++ Revision: 690980
+- imported package fonts-ttf-jura
+
