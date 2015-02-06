@@ -3,7 +3,7 @@
 Summary:	Family of sans-serif fonts in the Eurostile vein
 Name:		fonts-ttf-jura
 Version:	2.6.1
-Release:	%mkrel 1
+Release:	2
 License:	OFL and GPLv3
 Group:		System/Fonts/True type
 URL:		http://io.debian.net/~danielj/
